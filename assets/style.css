@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arvo, Amiri,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-image: url(../assets/image/small-black-background.jpg);
+    height: 40px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+nav h1{
+    margin: auto 20px;
+    color: bisque;
+    float: left;
+}
+
+nav ul {
+    margin: auto 30px;
+}
+
+nav ul li{
+    float: right;
+    font-size: 14px;
+    margin: 10px 15px 0 15px;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+nav ul li a {
+    color: burlywood;
+}
+
+header {
+    padding-top: 200px;
+}
+
+header h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+header h3 p {
+    line-height:1.5;
+    font-size: 95%;
+}
+
+.container {
+    text-align: center;
+    height: 600px;
+    color: burlywood;
+    background-image: url(image/darkbackground-image.jpg);
+    position: relative;
+}
+
+.container #about {
+    padding-top: 200px;
+}
+
+.container #two-cents-of-thought {
+    padding-top: 200px;
+}
+
+.container #contact {
+    padding-top: 200px;
+}
+
+.title {
+    margin: auto 0;
+}
+
+#about p {
+    line-height:1.5;
+    font-size: 95%;
+}
+
+#about h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#about a {
+    color: burlywood;
+    margin: 0 10px;
+}
+
+#two-cents-of-thought h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#two-cents-of-thought h3 p{
+    line-height:1.5;
+    font-size: 95%;
+    margin: auto 60px;
+    text-align:justify;
+}
+
+#contact h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#contact h3 p{
+    line-height:1.5;
+    font-size: 95%;
+    margin: auto 60px;
+    text-align:center;
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: burlywood;
+    text-align: center;
+    background-color: black;
+}
