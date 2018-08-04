@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin :0;
+}
+
+body{
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+h5{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.story {
+    height: 800px;
+    background-image: url(./old-big-house.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.story #page2 {
+    width: 40%;
+    text-align: left;
+    padding: 20px 20px;
+    color: white;
+    margin: 0 auto;
+    background-color:black;
+}
+
+.decide {
+    text-align: left;
+    width: 70%;
+    padding: 10px 10px;
+    margin: 0 auto;
+    background: midnightblue;
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background:black;
+    text-align: center;
+}
